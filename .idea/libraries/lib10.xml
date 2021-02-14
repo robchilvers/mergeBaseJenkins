@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="lib10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jackson-module-jaxb-annotations-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jackson2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jakarta.xml.bind-api-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jackson-annotations-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jackson-datatype-jdk8-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jackson-datatype-json-org-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jackson-core-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jackson-datatype-jsr310-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jakarta.activation-api-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jackson-dataformat-yaml-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jackson-module-parameter-names-2.12.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/json-20190722.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/jackson2-api/WEB-INF/lib/jackson-databind-2.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

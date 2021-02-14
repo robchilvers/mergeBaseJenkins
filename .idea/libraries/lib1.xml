@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/ws-cleanup/WEB-INF/lib/ws-cleanup.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/ws-cleanup/WEB-INF/lib/annotation-indexer-1.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/ws-cleanup/WEB-INF/lib/groovy-all-2.4.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

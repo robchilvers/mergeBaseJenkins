@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/font-awesome-api/WEB-INF/lib/error_prone_annotations-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/font-awesome-api/WEB-INF/lib/j2html-1.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/font-awesome-api/WEB-INF/lib/font-awesome-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

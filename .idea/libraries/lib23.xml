@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib23">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/workflow-cps-global-lib/WEB-INF/lib/ivy-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/workflow-cps-global-lib/WEB-INF/lib/workflow-cps-global-lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

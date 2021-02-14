@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib31">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/git-client/WEB-INF/lib/org.eclipse.jgit.http.server-5.10.0.202012080955-r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/git-client/WEB-INF/lib/gson-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/git-client/WEB-INF/lib/org.eclipse.jgit.ssh.jsch-5.10.0.202012080955-r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/git-client/WEB-INF/lib/org.eclipse.jgit.http.apache-5.10.0.202012080955-r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/git-client/WEB-INF/lib/org.eclipse.jgit.lfs-5.10.0.202012080955-r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/git-client/WEB-INF/lib/JavaEWAH-1.1.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/git-client/WEB-INF/lib/git-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/git-client/WEB-INF/lib/org.eclipse.jgit-5.10.0.202012080955-r.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

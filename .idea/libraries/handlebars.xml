@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="handlebars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/handlebars/WEB-INF/lib/handlebars.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

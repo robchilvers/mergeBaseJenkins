@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="git">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/git/WEB-INF/lib/git.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gradle-plugin-1.36">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/gradle/WEB-INF/lib/gradle-plugin-1.36.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

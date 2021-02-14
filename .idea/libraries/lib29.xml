@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib29">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/ldap/WEB-INF/lib/spring-dao-1.2.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/ldap/WEB-INF/lib/oro-2.0.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/ldap/WEB-INF/lib/acegi-security-1.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/ldap/WEB-INF/lib/ldap.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

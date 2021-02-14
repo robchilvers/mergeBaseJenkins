@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/github-api/WEB-INF/lib/okhttp-2.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/github-api/WEB-INF/lib/commons-lang3-3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/github-api/WEB-INF/lib/okhttp-urlconnection-2.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/github-api/WEB-INF/lib/github-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/github-api/WEB-INF/lib/github-api-1.122.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

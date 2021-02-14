@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/okhttp-api/WEB-INF/lib/okio-1.17.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/okhttp-api/WEB-INF/lib/okhttp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/okhttp-api/WEB-INF/lib/logging-interceptor-3.14.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/okhttp-api/WEB-INF/lib/okhttp-3.14.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

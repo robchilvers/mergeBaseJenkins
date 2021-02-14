@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/pam-auth/WEB-INF/lib/pam-auth.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/pam-auth/WEB-INF/lib/libpam4j-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/pam-auth/WEB-INF/lib/jna-4.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

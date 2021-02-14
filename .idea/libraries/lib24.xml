@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib24">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/script-security/WEB-INF/lib/script-security.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/script-security/WEB-INF/lib/groovy-sandbox-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/script-security/WEB-INF/lib/error_prone_annotations-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/script-security/WEB-INF/lib/caffeine-2.8.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/script-security/WEB-INF/lib/checker-qual-3.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

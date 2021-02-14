@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib19">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/bootstrap4-api/WEB-INF/lib/error_prone_annotations-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/plugins/bootstrap4-api/WEB-INF/lib/bootstrap4-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
