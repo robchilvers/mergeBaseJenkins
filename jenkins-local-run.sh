@@ -7,14 +7,14 @@ while getopts ":h:p:" opt; do
     p) jenkinsPort="$OPTARG"
     ;;
     \?) echo "Invalid option -$OPTARG" >&2
-    exit -1
+    exit 1
     ;;
   esac
 done
 
 if [ -z "$jenkinsHome" ]
   then
-    declare jenkinsHome=$(pwd)/jenkinsHome/default
+    declare jenkinsHome=$(pwd)/jenkins-home/local
 fi
 if [ -z "$jenkinsPort" ]
   then
@@ -26,7 +26,7 @@ echo "Starting MergeBase Jenkins SandBox"
 echo " - Jenkins Home : " $jenkinsHome
 echo " - Jenkins Port : " $jenkinsPort
 
-cd docker
+cd docker/local
 export JENKINS_HOME=$jenkinsHome
 export JENKINS_PORT=$jenkinsPort
 
