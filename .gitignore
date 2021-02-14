@@ -2,5 +2,7 @@ mergeBaseJenkins.iml
 
 jenkinsHome/default/.cache/*.**
 jenkinsHome/default/copy_reference_file.log
-jenkinsHome/default/logs/*.**
+jenkinsHome/default/logs
 jenkinsHome/default/.java/fonts/*.**
+jenkinsHome/default/failed-boot-attempts.txt
+jenkinsHome/default/queue.xml
