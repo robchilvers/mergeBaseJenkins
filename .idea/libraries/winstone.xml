@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="winstone">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/jenkinsHome/default/war/winstone.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
