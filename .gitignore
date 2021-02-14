@@ -1,1 +1,5 @@
 mergeBaseJenkins.iml
+
+
+jenkinsHome/default/copy_reference_file.log
+jenkinsHome/default/logs/**.*

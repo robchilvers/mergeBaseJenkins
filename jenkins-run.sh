@@ -14,7 +14,7 @@ done
 
 if [ -z "$jenkinsHome" ]
   then
-    declare jenkinsPort=$(pwd)/jenkinsHome/default
+    declare jenkinsHome=$(pwd)/jenkinsHome/default
 fi
 if [ -z "$jenkinsPort" ]
   then
