@@ -33,11 +33,15 @@ import hudson.security.ChainedServletFilter
 import hudson.security.UnwrapSecurityExceptionFilter
 import hudson.security.HudsonAuthenticationEntryPoint
 import jenkins.security.BasicHeaderProcessor
-import jenkins.security.ExceptionTranslationFilter
 import org.acegisecurity.providers.anonymous.AnonymousProcessingFilter
+import jenkins.security.ExceptionTranslationFilter
+import org.acegisecurity.ui.basicauth.BasicProcessingFilter
 import org.acegisecurity.ui.basicauth.BasicProcessingFilterEntryPoint
 import org.acegisecurity.ui.rememberme.RememberMeProcessingFilter
 import hudson.security.HttpSessionContextIntegrationFilter2
+import hudson.security.SecurityRealm
+import hudson.security.NoopFilter
+import jenkins.security.ApiTokenFilter
 
 // providers that apply to both patterns
 def commonProviders() {
@@ -49,7 +53,7 @@ def commonProviders() {
         bean(ExceptionTranslationFilter) {
             accessDeniedHandler = new AccessDeniedHandlerImpl()
             authenticationEntryPoint = bean(HudsonAuthenticationEntryPoint) {
-                loginFormUrl = '/'+securityRealm.getLoginUrl()+"?from={0}"
+                loginFormUrl = '/'+securityRealm.getLoginUrl()+"?from={0}";
             }
         },
         bean(UnwrapSecurityExceptionFilter)
@@ -65,7 +69,7 @@ filter(ChainedServletFilter) {
             // I suspect this is related to JENKINS-12585, in that
             // it ends up setting Set-Cookie for image responses.
             // Instead, we use layout.jelly to create sessions.
-            allowSessionCreation = false
+            allowSessionCreation = false;
         },
         // if any "Authorization: Basic xxx:yyy" is sent this is the filter that processes it
         bean(BasicHeaderProcessor) {

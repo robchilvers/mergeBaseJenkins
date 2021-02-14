@@ -88,7 +88,6 @@ function ComboBox(idOrField, callback, config) {
 		alert("You have specified an invalid id for the field you want to turn into a combo box");
 	this.dropdown = document.createElement("div");
 	this.isDropdownShowing = false;
-	this.oldonsubmit = null;
 	
 	// configure the dropdown div
 	this.dropdown.className = "comboBoxList";
@@ -112,11 +111,11 @@ function ComboBox(idOrField, callback, config) {
 			this.setSelectionRange(length, length);
 		}
 	}
+	this.field.form.oldonsubmit = this.field.form.onsubmit;
 	this.field.onfocus = function() {
-		this.comboBox.oldonsubmit = this.form.onsubmit;
 		this.form.onsubmit = function() {
 			if (self.isDropdownShowing) return false;
-			if (self.oldonsubmit) self.oldonsubmit.call(this);
+			if (this.oldonsubmit) this.oldonsubmit();
 			return true;
 		};
 		// repopulate and display the dropdown
@@ -125,7 +124,7 @@ function ComboBox(idOrField, callback, config) {
 	this.field.onblur = function() {
 		var cb = this.comboBox;
 		this.hideTimeout = setTimeout(function() { cb.hideDropdown(); }, 100);
-		this.form.onsubmit = cb.oldonsubmit;
+                this.form.onsubmit = this.form.oldonsubmit;
 	}
 	
 	// privileged methods
@@ -246,7 +245,7 @@ ComboBox.prototype.populateDropdown = function() {
 		for (var i = 0; i < this.availableItems.length; i++) {
 			var item = document.createElement("div");
 			item.className = "comboBoxItem";
-			item.innerText = this.availableItems[i];
+			item.innerHTML = this.availableItems[i];
 			item.id = "item_" + this.availableItems[i];
 			item.comboBox = this;
 			item.comboBoxIndex = i;
