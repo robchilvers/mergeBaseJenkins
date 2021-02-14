@@ -1,6 +1,6 @@
 mergeBaseJenkins.iml
 
-
+jenkinsHome/default/.cache/*.**
 jenkinsHome/default/copy_reference_file.log
 jenkinsHome/default/logs/*.**
 jenkinsHome/default/.java/fonts/*.**
