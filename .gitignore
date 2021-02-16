@@ -1,5 +1,6 @@
 mergeBaseJenkins.iml
 .idea
+.DS_Store
 
 jenkins-home/local/.cache/*.**
 jenkins-home/local/copy_reference_file.log
